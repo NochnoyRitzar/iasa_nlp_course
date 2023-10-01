@@ -6,3 +6,4 @@ logdirs
 predictions
 .venv
 data
+.idea
