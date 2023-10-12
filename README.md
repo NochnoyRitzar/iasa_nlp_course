@@ -36,7 +36,7 @@ jupyter lab --port 7766
 1. [x] Структура та структурні елементи постановки ML задачі. Формалізація бізнес задач. Основні задачі й методи в сфері Обробки природних мов - Volodymyr 
 2. [x] Представлення природніх мов в машинному вигляді. Класичні та нейронні алгоритми векторизації. Класичні ML підходи в NLP. - Vladyslav 
 3. [x] Основні метрики в NLP (обробка природніх мов). Побудова оцінки підходів і моделей в NLP - валідація. - Anton
-4. [ ] Підходи з використанням архітектур RNN/GRU/LSTM. - Volodymyr
+4. [x] Підходи з використанням архітектур RNN/GRU/LSTM. - Volodymyr
 5. [ ] Підходи з використанням архітектури Transformer. - Anton  
 6. [ ] Генеративні задачі: машинний переклад, умовна та безумовна текстова генерація, розгляд GPT архітектури - Vladyslav
     - Task Exploration 
@@ -67,6 +67,7 @@ jupyter lab --port 7766
 - For most of lectures you will need datasets from Kaggle. [Prepare in advance](#how-to-use-kaggle-datasets)
     - CommonLit - Evaluate Student Summaries dataset API command: `kaggle competitions download -c commonlit-evaluate-student-summaries`
     - Natural Language Processing with Disaster Tweets dataset API command: `kaggle competitions download -c nlp-getting-started`
+    - Mantis Analytics Location Detection dataset: `kaggle datasets download -d vladimirsydor/mantis-analytics-location-detection`
 - We recommend to create `data` folder in the course root directory and put all datasets there. So you might have next structure
 
 ```
